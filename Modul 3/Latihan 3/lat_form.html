@@ -1,27 +1,23 @@
 <html>
 <body>
-<p style="font-family:tahoma; font-size:30px; color:green">FORM 
-ISIAN</p>
+<p style="font-family:tahoma; font-size:30px; color:green">FORM ISIAN</p>
 <fieldset><legend>Isilah Biodata Anda dengan benar</legend>
-<form name="form1" method="post" action="" style="font-family:tahoma; font-size:12px">
+<form name="form1" method="post" action="profile.html" style="font-family:tahoma; font-size:12px">
  <table width="663" border="0" cellpadding="0" cellspacing="0">
  <tr>
  <td width="177" valign="top">NIM</td>
  <td width="10">:</td>
- <td width="476"><input type="text" name="textfield" 
-id="textfield"></td>
+ <td width="476"><input type="text" name="nim" id="nim" maxlength="9"></td>
  </tr>
  <tr>
  <td valign="top">Nama Lengkap</td>
  <td>:</td>
- <td><input type="text" name="textfield2" 
-id="textfield2"></td>
+ <td><input type="text" name="nama" id="nama"></td>
  </tr>
  <tr>
  <td valign="top">Alamat</td>
  <td valign="top">:</td>
- <td><textarea name="textarea" id="textarea" cols="45" 
-rows="5"></textarea></td>
+ <td><textarea name="textarea" id="textarea" cols="45" rows="5"></textarea></td>
  </tr>
  <tr>
  <td valign="top">Tempat/Tanggal Lahir</td>
@@ -56,11 +52,9 @@ rows="5"></textarea></td>
  
 <td valign="top">Jenis Kelamin</td>
  <td>:</td>
- <td><input type="radio" name="radio" id="radio" 
-value="radio"> 
+ <td><input type="radio" name="jk" id="radio" value="Laki-laki"> 
  Laki-laki 
- <input type="radio" name="radio2" id="radio2" 
-value="radio2"> 
+ <input type="radio" name="jk" id="radio2" value="Perempuan"> 
  Perempuan</td>
  </tr>
  <tr>
@@ -72,24 +66,27 @@ value="radio2">
  <option>Kristen Katholik</option>
  <option>Hindu</option>
  <option>Budha</option>
+ <option>Jawa</option>
  </select> </td>
  </tr>
  <tr>
  <td valign="top">Hobi</td>
  <td valign="top">:</td>
- <td><input type="checkbox" name="checkbox" id="checkbox"> 
+ <td><input type="checkbox" name="hobi" id="checkbox"> 
  Berenang<br> 
- <input type="checkbox" name="checkbox2" id="checkbox2"> 
+ <input type="checkbox" name="hobi" id="checkbox2"> 
  Main Musik<br>
- <input type="checkbox" name="checkbox3" id="checkbox3"> 
+ <input type="checkbox" name="hobi" id="checkbox3"> 
  Olah Raga </td>
  </tr>
  <tr>
  <td>&nbsp;</td>
  <td>&nbsp;</td>
-<td><input type="submit" name="button" id="button" 
-value="Simpan"></td>
+<td><input type="submit" name="submit" id="button" value="Simpan"></td>
+<td><input type="reset" name="reset" id="button" value="Reset"></td>
  </tr>
  </table>
 </form>
 </fieldset>
+</body>
+</html>
