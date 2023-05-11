@@ -1,5 +1,5 @@
 <fieldset><legend>Menggunakan Methode GET</legend>
-<form name="form1" method="post" action="proses_get.php">
+<form name="form1" method="get" action="proses_get.php">
  <table width="288" border="0">
  <tr>
  <td width="95">Nama</td>
