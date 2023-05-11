@@ -5,8 +5,7 @@ margin:0 auto;width:80%;border
 caption h3 
 th, td{border:1px solid #d40d0d;}
 th{padding:8px 0;background: rgb(251, 255, 0);}
-td{padding:4px 8px;
-}
+td{padding:4px 8px;}
 .zebra tr:nth-child(even) {
     background-color: #E6E6FA;
    }
