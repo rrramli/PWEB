@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar Javascript Part 4 : Operator Aritmatika Pada Javascript</title>
+	</head>
+	<body>
+		<h1>Belajar Javascript Part 4 <br/> Operator Aritmatika Pada Javascript</h1>
+		<h2>www.malasngoding.com</h2>
+
+		Bilangan 1	: <input type="text" name="" id="bil1"><br>
+		Bilangan 2	: <input type="text" name="" id="bil2" onkeydown="tampil_hasil()"><br>
+		Hasil : <input type="text" name="" id="hasil"><br>
+		<button onclick="tampil_hasil()">Hitung</button>
+ 
+		<script>
+			function tampil_hasil(){
+				var bilangan1 = document.getElementById("bil1").value;
+				var bilangan2 = document.getElementById("bil2").value;
+	 
+				var penjumlahan = parseInt(bilangan1) + parseInt(bilangan2);
+
+				document.getElementById("hasil").value = penjumlahan;	
+			}			
+		</script>
+	</body>
+</html>

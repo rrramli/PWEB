@@ -238,9 +238,11 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a href="index_mk.php">
+                <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#file-earmark"/></svg>
                 Mata Kuliah
+                </a>
               </a>
             </li>
           </ul>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penjualan</title>
+  </head>
+  <body>
+    <h3>Teknosata Mart</h3>
+    <table>
+      <tr>
+        <td>Nama Barang</td>
+        <td>
+          <select name="" id="nama" onchange="tampil_harga()">
+            <option value="Kopi ABC">Kopi ABC</option>
+            <option value="Gulaku">Gulaku</option>
+            <option value="Teh Tjatoet">Teh Tjatoet</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Harga</td>
+        <td><input type="text" name="" id="harga"></td>
+      </tr>
+    </table>
+    <script>
+      function tampil_harga(){
+        Barang = document.getElementById("nama")
+        let hargabarang;
+        if(Barang=="Kopi ABC"){
+            hargabarang = 2000;}
+        else if(Barang=="Gulaku"){
+            hargabarang = 3500;}
+        else if(Barang=="Teh Tjatoet"){
+            hargabarang = 5000;}
+        harga.value = hargabarang;
+      };
+    </script>
+  </body>
+</html>
